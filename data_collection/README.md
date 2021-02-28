@@ -19,6 +19,16 @@ Pipeline explanation:
 - every 300 websites, close driver and open a new window
 - open website
 - if website has a dominant color with over 85%, image is probably "bad" (go next)
-- use AutoML ai (trained on cookie images) to predict if image contains cookie windows or not
-- if both tests are successfull, save image
-- next website
+- else, downsample image to 512x512 and convert to RGB (max resolution for GAN training and used color format)
+- use AutoML (model that classifies images, good or bad) to predict if image contains cookie windows or not
+- if both tests are successful, save image
+- next website 
+
+
+Experience decisions:
+- timeout of 4 seconds is long enough to load most optimized websites
+- if a color has 85% dominance in image, the website either
+    - shows an error message
+    - has client side rendering (and did not load by screenshot time)
+    - has a bad design
+    - (of 1000, approximately 10-30 would be usable)
