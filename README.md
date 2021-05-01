@@ -1,38 +1,10 @@
 # Bachelor's Thesis
 ## Applying Generative Adversarial Networks to Website Design
 
-# This repository uses different forks.
+This repository contains the code that was used for the thesis "Applying Generative Adversarial Networks to Website Design". 
 
-1. AdversarialConsistentScoreMatching
-```
-@inproceedings{
-  jolicoeur-martineau2021adversarial,
-  title={Adversarial score matching and improved sampling for image generation},
-  author={Alexia Jolicoeur-Martineau and R{\'e}mi Pich{\'e}-Taillefer and Ioannis Mitliagkas and Remi Tachet des Combes},
-  booktitle={International Conference on Learning Representations},
-  year={2021},
-  url={https://openreview.net/forum?id=eLfqMl3z3lq}
-}
-```
+- The data_collection folder contains the code of the screenshot process and the cleaning pipeline.
+- The training folder contains the code for the training of one StyleGAN2-ADA model and the NCSN++ model.
+- The evaluation folder contains the code that was used for the application and evaluation process.
 
-2. stylegan2-ada-pytorch
-```
-@inproceedings{Karras2020ada,
-  title     = {Training Generative Adversarial Networks with Limited Data},
-  author    = {Tero Karras and Miika Aittala and Janne Hellsten and Samuli Laine and Jaakko Lehtinen and Timo Aila},
-  booktitle = {Proc. NeurIPS},
-  year      = {2020}
-}
-```
-
-3. score_sde_pytorch
-```
-@inproceedings{
-  song2021scorebased,
-  title={Score-Based Generative Modeling through Stochastic Differential Equations},
-  author={Yang Song and Jascha Sohl-Dickstein and Diederik P Kingma and Abhishek Kumar and Stefano Ermon and Ben Poole},
-  booktitle={International Conference on Learning Representations},
-  year={2021},
-  url={https://openreview.net/forum?id=PxTIG12RRHS}
-}
-```
+Each folder contains a README for further explanation.
