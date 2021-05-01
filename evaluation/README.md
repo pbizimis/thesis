@@ -2,7 +2,7 @@
 
 ## StyleGAN2-ADA Evaluation
 
-The evaluation.ipynb notebook contains all the code that was used for the application and evaluation process of the thesis. The stylegan2-ada-pytorch fork contains the custom Closed-Form Factorization code. The fork is based on another fork since my code was further developed (see commits and credits in fork README).
+The evaluation.ipynb notebook contains all the code that was used for the application and evaluation process of the thesis. The stylegan2-ada-pytorch fork contains the custom Closed-Form Factorization code that is based on the Closed-Form Factorization of this [repo](https://github.com/rosinality/stylegan2-pytorch). The fork is based on another fork since my code was further developed (see commits and credits in fork README).
 
 ```
 @inproceedings{Karras2020ada,
