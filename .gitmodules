@@ -1,9 +1,9 @@
 [submodule "AdversarialConsistentScoreMatching"]
-	path = AdversarialConsistentScoreMatching
+	path = training/AdversarialConsistentScoreMatching
 	url = https://github.com/pbizimis/AdversarialConsistentScoreMatching.git
 [submodule "stylegan2-ada-pytorch"]
-	path = stylegan2-ada-pytorch
+	path = training/stylegan2-ada-pytorch
 	url = https://github.com/pbizimis/stylegan2-ada-pytorch.git
 [submodule "score_sde_pytorch"]
-	path = score_sde_pytorch
+	path = training/score_sde_pytorch
 	url = https://github.com/pbizimis/score_sde_pytorch.git
